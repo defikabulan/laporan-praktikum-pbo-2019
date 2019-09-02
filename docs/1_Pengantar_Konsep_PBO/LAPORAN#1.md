@@ -94,9 +94,9 @@ Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Se
 
 ![Tugas](img/tugas1a.PNG)
 
-(img/tugas1b.PNG)
+![Tugas](img/tugas1b.PNG)
 
-(img/tugas1c.PNG)
+![Tugas](img/tugas1c.PNG)
 
 Link Kode Program : [Tiket1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Tiket1841720098Bulan.java)
 
