@@ -36,7 +36,45 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ## Pertanyaan
 
-(silakan ketik pertanyaan di sini beserta jawabannya.)
+Soal!!
+1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
+2. Apa yang dimaksud dengan object dan apa bedanya dengan class?
+3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!
+4. Pada class Sepeda, terdapat state/atribut apa saja?
+5. Tambahkan atribut warna pada class Sepeda.
+6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
+
+Jawaban!!
+1. Aspek yang terdapat didalam PBO : 
+ - Class adalah blueprint dari objek. Ambil contoh objek Mobil. Terdapat berbagai macam mobil di dunia, dari berbagai merk dan model.      Namun semua Mobil dibangun berdasarkan blueprint yang sama, sehingga tiap mobil memiliki komponen dan karakteristik yang sama.      
+ - Object adalah suatu rangkaian dalam program yang terdiri dari state dan behaviour. Object pada software dimodelkan sedemikian rupa      sehingga mirip dengan objek yang ada di dunia nyata. Objek memiliki state dan behaviour. State adalah ciri-ciri atau atribut dari        objek tersebut. behaviour adalah perilaku yang dapat dilakukan objek tersebut. 
+ - Enkapsulasi adalah menggabungkan variabel dan fungsi anggota bersama dan menjalankan nya pada objek. Encapsulation menyembunyikan        informasi detail dari suatu class
+ - Inheritance adalah mekanisme untuk mengeliminasi kode. Alih-alih mendefinisikan ulang semua properti dan metode pada setiap elemen,      metode dan properti yang ada dapat di tempatkan pada objek yang umum dan objek lainnya dapat mewarisi properti dan metode yang ada      sehingga inheritance membantu untuk mengeliminasi kode yang tidak di perlukan
+ - Abstraksi adalah salah satu fitur dari pemrograman berorientasi objek. Abstraksi berarti hanya menampilkan informasi penting dan        menyembunyikan detailnya. Abstraksi data mengacu pada penyediaan hanya informasi penting tentang data bagian luar, menyembunyikan        detail latar belakang atau implementasi.
+ -Polymorphism sering dikaitkan dengan penggunaan lebih dari satu metoda dengan nama sama. Penggunaan metoda dengan nama sama dapat       diterapkan dengan method overloading dan method overriding. Peran polymorphism sebenarnya tidak terbatas hanya pada hal tersebut. Ada   keterkaitan antara polymorphism dan inheritance (turunan).
+ 
+2. Objek adalah suatu rangkaian dalam program yang terdiri dari state dan behavior. 
+   Perbedaannya : objek merupakan hasil instansiasi dari suatu kelas, sedangkan kelas bisa digunakan untuk menciptakan banyak objek. 
+
+3. OOP menyediakan struktur modular yang jelas untuk program sehingga OOP sanat bagus digunakan untuk mendefinisikan tipe data abstrak      di mana detail implementasinya tersembunyi.
+   OOP mempermudah dalam maintenance, memodifikasi bahkan membuat sebuah objek yang baru tanpa mengubah kode yang sudah ada.
+   OOP menyediakan framework untuk library code dimana komponen software yang tersedia dapat dengan mudah di adaptasi dan di modifikasi    oleh programmer. Hal ini sangat berguna untuk mengembangkan GUI ( Graphical User Interface ) dan UX ( User Xperience ).
+   sumber : https://magneticinfo.blogspot.com/2014/08/apa-itu-object-oriented-programming-oop.html
+   
+4. String mMerek, int mKecepatan, dan int mGear.
+
+5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
+![Pertanyaan No. 5]
+Link kode program : 
+
+6. Karena class SepedaGunung merupakan extends dari class Sepeda, arti nya class Sepeda mewariskan semua fungsi dan semua fields            (variable) yang ada di dalam class Sepeda.
+
+
+
+
+
+
+
 
 ## Tugas
 
@@ -50,7 +88,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+- Pada jobsheet 1, kami diajarkan untuk membuat pemrograman berorientasi objek serta mengenali aspek-aspek yang terdapat dalam pemrograman berorientasi objek ini.  
 
 ## Pernyataan Diri
 
@@ -60,4 +98,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(silakan isi nama lengkap di sini)***
+***Defika Bulan Rahmaningrum***
