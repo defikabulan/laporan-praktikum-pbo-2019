@@ -23,6 +23,7 @@ PBO memudahkan user ketika melakukan pemrograman yang memiliki banyak relasi.
 ![Percobaan 1](img/percobaan1.1.PNG)
 
 Link Kode Program : [Sepeda1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan.java)
+
 Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
 ### Percobaan 2
@@ -31,10 +32,11 @@ Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![Percobaan 2]
+![Percobaan 2](img/percobaan2a.PNG)
 
 
 Link Kode Program : [SepedaGunung1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720098Bulan.java)
+
 Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
 
