@@ -31,7 +31,7 @@ Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![Percobaan 2](img/percobaan 2.1.PNG)
+![Percobaan 2](img/percobaan2.1 .PNG)
 
 
 Link Kode Program : [SepedaGunung1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720098Bulan.java)
@@ -70,7 +70,8 @@ Jawaban!!
 
 5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
 ![Pertanyaan 5](img/pertanyaan5.1.PNG)
-Link kode program : 
+Link kode Program : [Sepeda1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan.java)
+Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
 6. Karena class SepedaGunung merupakan extends dari class Sepeda, arti nya class Sepeda mewariskan semua fungsi dan semua fields            (variable) yang ada di dalam class Sepeda.
 
@@ -89,7 +90,8 @@ Link kode program :
 
 ![contoh screenshot](img/contoh-schot1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Link Kode Program : [Tiket1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Tiket1841720098Bulan.java)
+Link Kode Program : [TiketDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/TiketDemo1841720098Bulan.java)
 
 ## Kesimpulan
 
