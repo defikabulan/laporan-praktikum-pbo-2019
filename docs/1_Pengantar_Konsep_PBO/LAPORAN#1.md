@@ -71,7 +71,7 @@ Jawaban!!
 4. String mMerek, int mKecepatan, dan int mGear.
 
 5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
-![Pertanyaan 5]
+![Pertanyaan 5](img/pertanyaan5.1.PNG)
 Link kode Program : [Sepeda1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan.java)
 Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
