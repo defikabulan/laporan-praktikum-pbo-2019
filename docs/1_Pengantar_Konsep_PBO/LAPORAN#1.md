@@ -16,7 +16,7 @@ PBO memudahkan user ketika melakukan pemrograman yang memiliki banyak relasi.
 
 ### Percobaan 1
 
-(pada percobaan ini, kita diajarkan untuk mengenal PBO seperti apa)
+(pada percobaan ini, kita mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut)
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
@@ -26,7 +26,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+(Pada percobaan 2 kita mendemonstrasikan salah satu fitur yang paling penting dalam PBO, yaitu inheritance. Disini kita akan membuat class SepedaGunung yang mana adalah turunan/warisan dari class Sepeda. Pada dasarnya class SepedaGunung adalah sama dengan class Sepeda, hanya saja pada sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class Sepeda Gunung dari nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung. )
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
