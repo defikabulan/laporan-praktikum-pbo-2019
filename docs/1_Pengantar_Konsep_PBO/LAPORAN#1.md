@@ -31,7 +31,7 @@ Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![Percobaan 2](img/percobaan2.1 .PNG)
+![Percobaan 2]
 
 
 Link Kode Program : [SepedaGunung1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720098Bulan.java)
@@ -69,7 +69,7 @@ Jawaban!!
 4. String mMerek, int mKecepatan, dan int mGear.
 
 5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
-![Pertanyaan 5](img/pertanyaan5.1.PNG)
+![Pertanyaan 5]
 Link kode Program : [Sepeda1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan.java)
 Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
@@ -88,7 +88,7 @@ Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Se
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![Tugas]
 
 Link Kode Program : [Tiket1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Tiket1841720098Bulan.java)
 Link Kode Program : [TiketDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/TiketDemo1841720098Bulan.java)
