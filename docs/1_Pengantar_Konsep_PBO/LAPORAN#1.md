@@ -2,21 +2,24 @@
 
 ## Kompetensi
 
-(ketiklah kompetensi tiap praktikum di sini)
+1.Konsep Dasar PBO
+2.Perbedaan Pemrograman Berorientasi Objek dan Pemrograman Struktural
 
 ## Ringkasan Materi
 
-(berisi catatan penting pribadi selama praktikum berlangsung ataupun menemukan permasalahan khusus saat melakukan percobaan)
+Object-Oriented Programming adalah pemrograman  yang berorientasi kepada objek. Tujuan dari OOP diciptakan adalah untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari.
+
+PBO memudahkan user ketika melakukan pemrograman yang memiliki banyak relasi.
 
 ## Percobaan
 
 ### Percobaan 1
 
-(berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+(pada percobaan ini, kita diajarkan untuk mengenal PBO seperti apa)
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![contoh screenshot] 
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
