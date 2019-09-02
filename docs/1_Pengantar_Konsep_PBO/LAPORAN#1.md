@@ -22,7 +22,7 @@ PBO memudahkan user ketika melakukan pemrograman yang memiliki banyak relasi.
 
 ![Percobaan 1](img/percobaan1.1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+link kode program : (../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan)
 
 ### Percobaan 2
 
