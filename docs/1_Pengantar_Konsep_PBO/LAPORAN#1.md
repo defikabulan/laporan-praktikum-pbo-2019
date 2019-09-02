@@ -68,7 +68,7 @@ Jawaban!!
 4. String mMerek, int mKecepatan, dan int mGear.
 
 5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
-![Pertanyaan No. 5]
+![Pertanyaan 5](img/pertanyaan5.1.PNG)
 Link kode program : 
 
 6. Karena class SepedaGunung merupakan extends dari class Sepeda, arti nya class Sepeda mewariskan semua fungsi dan semua fields            (variable) yang ada di dalam class Sepeda.
