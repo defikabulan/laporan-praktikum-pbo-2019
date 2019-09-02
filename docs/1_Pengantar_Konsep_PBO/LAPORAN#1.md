@@ -20,7 +20,7 @@ PBO memudahkan user ketika melakukan pemrograman yang memiliki banyak relasi.
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![Percobaan 1](img/img/percobaan 1.1)
+![Percobaan 1](img/img/percobaan1.1)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
