@@ -31,9 +31,12 @@ Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![Percobaan 2](img/percobaan2.1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Link Kode Program : [SepedaGunung1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720098Bulan.java)
+Link Kode Program : [SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
+
+
 
 ## Pertanyaan
 
