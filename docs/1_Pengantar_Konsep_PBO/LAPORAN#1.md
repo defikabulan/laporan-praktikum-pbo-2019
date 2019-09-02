@@ -71,8 +71,10 @@ Jawaban!!
 4. String mMerek, int mKecepatan, dan int mGear.
 
 5. Hasil tambahan atribut warna pada class Sepeda1841720098Bulan :
-![Pertanyaan 5](img/pertanyaan5.1.PNG)
+![Pertanyaan 5](img/pertanyaan5a.PNG)
+
 Link kode Program : [Sepeda1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720098Bulan.java)
+
 Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720098Bulan.java)
 
 6. Karena class SepedaGunung merupakan extends dari class Sepeda, arti nya class Sepeda mewariskan semua fungsi dan semua fields            (variable) yang ada di dalam class Sepeda.
@@ -90,9 +92,14 @@ Link Kode Program[SepedaDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Se
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![Tugas]
+![Tugas](img/tugas1a.PNG)
+
+(img/tugas1b.PNG)
+
+(img/tugas1c.PNG)
 
 Link Kode Program : [Tiket1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/Tiket1841720098Bulan.java)
+
 Link Kode Program : [TiketDemo1841720098Bulan](../../src/1_Pengantar_Konsep_PBO/TiketDemo1841720098Bulan.java)
 
 ## Kesimpulan
