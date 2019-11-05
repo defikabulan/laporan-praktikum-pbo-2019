@@ -1,55 +1,110 @@
-# Laporan Praktikum #9 - Abstract Class dan Interface 
+# Laporan Praktikum #9 - POLIMORFISME 
 
 ## Kompetensi
 
-1. Menjelaskan maksud dan tujuan penggunaan Abstract Class
-2. Menjelaskan maksud dan tujuan penggunaan Interface
-3. Menerapkan Abstract Class dan Interface di dalam pembuatan program. 
+1. Memahami konsep dan bentuk dasar polimorfisme
+2. Menerapkan polimorfisme pada parameter/argument method
+3. Menerapkan object casting untuk meng-ubah bentuk objek
+
+
 
 ## Ringkasan Materi
-Abstract Class Abstract Class adalah class yang tidak dapat diinstansiasi namun dapat di-extend. Abstract class baru dapat dimanfaatkan ketika ia di-extend.
+Polimorfisme merupakan kemampuan suatu objek untuk memiliki banyak
+bentuk. Penggunaan polimorfisme yang paling umum dalam OOP terjadi
+ketika ada referensi super class yang digunakan untuk merujuk ke objek dari
+sub class. Maka objek tersebut bisa diinstansiasi sebagai objek dari sub
+class. 
 
-Interface Interface adalah struktur data yang hanya berisi abstract methods. Tidak ada apa-apa selain method abstract pada interface, termasuk atribut getter dan setter.
+Dari uraian tersebut bisa dilihat bahwa konsep polimorfisme bisa
+diterapkan pada class-class yang memiliki relasi inheritance (relasi
+generalisasi atau IS-A).
+Selain pada class-class yang memiliki relasi inheritance, polimorfisme
+juga bisa diterapkan pada interface. Ketika ada objek yang dideklarasikan dari
+suatu interface, maka ia bisa digunakan untuk mereferensi ke objek dari
+class-class yang implements ke interface tersebut.
+
 ## Percobaan
 
-### Percobaan 1 -  Abstract Class 
+### Percobaan 1 -  Bentuk Dasar Polimorfisme
 
-Di dunia ini terdapat banyak jenis hewan. Semua hewan memiliki beberapa karakteristik yang sama, seperti contohnya semua hewan memiliki umur, hewan apapun itu, umurnya akan bertambah sama jumlahnya setiap tahun. 
-
-Selain karakteristik yang sama, masing-masing hewan juga memiliki karakteristik yang berbeda satu dengan yang lainnya. Contohnya dalam hal bergerak. Cara kucing bergerak berbeda dengan cara ikan bergerak. Kucing bergerak dengan cara melangkahkan kaki-kakinya sedangkan ikan bergerak dengan cara menggerakkan siripnya.
-
-
+### Langkah Percobaan
 ![percobaan 1](img/percobaan1.PNG)
 
 Link Kode Program : 
-[Hewan1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/AbstractClass/Hewan1841720098Bulan.java)
+[Employee1841720098Bulan](../../src/10_Polimorfisme/Employee1841720098Bulan.java)
 
 
 ![percobaan 1](img/percobaan1a.PNG)
 
 Link Kode Program : 
-[Kucing1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/AbstractClass/Kucing1841720098Bulan.java)
+[Payable1841720098Bulan](../../src/10_Polimorfisme/Payable1841720098Bulan.java)
+
 
 ![percobaan 1](img/percobaan1b.PNG)
 
 Link Kode Program : 
-[Ikan1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/AbstractClass/Ikan1841720098Bulan.java)
+[IntershipEmployee1841720098Bulan](../../src/10_Polimorfisme/IntershipEmployee1841720098Bulan.java)
+
 
 ![percobaan 1](img/percobaan1c.PNG)
 
 Link Kode Program : 
-[Orang1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/AbstractClass/Orang1841720098Bulan.java)
+[PermanentEmployee1841720098Bulan](../../src/10_Polimorfisme/PermanentEmployee1841720098Bulan.java)
+
 
 ![percobaan 1](img/percobaan1d.PNG)
 
 Link Kode Program : 
-[Program1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/AbstractClass/Program1841720098Bulan.java)
+[ElectricityBill1841720098Bulan](../../src/10_Polimorfisme/ElectricityBill1841720098Bulan.java)
 
-## Pertanyaan diskusi:  
-Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak mengimplementasikan method abstract yang ada di class induknya? Buktikan!
 
-Jawab : Tidak boleh , karena saat kita meng-extends suatu method berarti kita mewarisi sifat yang ada pada class yang kita extends. Bila kita tidak mengimplementasikan maka program tidak bisa di tampilkan artinya dengan mengimplementasikan kita berarti memanggil data atau isi yang ada pada kelas yang sudah di extends
+![percobaan 1](img/percobaan1e.PNG)
 
+Link Kode Program : 
+[Tester11841720098Bulan](../../src/10_Polimorfisme/Tester11841720098Bulan.java)
+
+
+## Pertanyaan :  
+1. Class apa sajakah yang merupakan turunan dari class Employee?
+
+      Jawab : class  InternshipEmployee1841720098Bulan, class PermanentEmployee1841720098Bulan
+
+2. Class apa sajakah yang implements ke interface Payable?
+
+      Jawab : class ElectricityBill1841720098Bulan, class PermanentEmployee1841720098Bulan
+
+3. Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi
+dengan objek pEmp (merupakan objek dari class
+PermanentEmployee) dan objek iEmp (merupakan objek dari class
+InternshipEmploye) ?
+
+      Jawab : karena pada baris sebelumnya sudah di beri penjelasan seperti gambar di bawah ini. Jadi e/Employee bisa memanggil keduanya.
+
+      ![pertanyaan 1](img/pertanyaan1.PNG)
+
+
+4. Perhatikan class Tester1, baris ke-12 dan 13. Mengapa p, bisa diisi
+dengan objek pEmp (merupakan objek dari class
+PermanentEmployee) dan objek eBill (merupakan objek dari class
+ElectricityBill) ?
+
+      Jawab : karena pada baris sebelumnya sudah di beri penjelasan seperti gambar di bawah ini. Jadi p/Payable bisa memanggil keduanya.
+
+      ![pertanyaan 1](img/pertanyaan1.PNG)
+
+
+5. Coba tambahkan sintaks:
+p = iEmp;
+ e = eBill;
+pada baris 14 dan 15 (baris terakhir dalam method main) ! Apa yang
+menyebabkan error?
+
+      Jawab :karena Class PermanentEmployee1841720098Bulan dan InternshipEmployee1841720098Bulan merupakan turunan dari Class Payable1841720098Bulan.
+
+
+6. Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
+
+      Jawab : polimorfisme bisa diterapkan pada class-class yang memiliki relasi inheritance dan interface. Ketika ada objek yang dideklarasikan dari suatu interface, maka ia bisa digunakan untuk mereferensikan ke objek yang mengimplements class interface tersebut
 
 
 ### Percobaan 2 - Interface 
