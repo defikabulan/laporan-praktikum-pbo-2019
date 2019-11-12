@@ -1,4 +1,4 @@
-# Laporan Praktikum #9 - POLIMORFISME 
+# Laporan Praktikum #10 - POLIMORFISME 
 
 ## Kompetensi
 
@@ -61,7 +61,7 @@ Link Kode Program :
 ![percobaan 1](img/percobaan1e.PNG)
 
 Link Kode Program : 
-[Tester11841720098Bulan](../../src/10_Polimorfisme/Tester11841720098Bulan.java)
+[Tester 1 1841720098Bulan](../../src/10_Polimorfisme/Tester11841720098Bulan.java)
 
 
 ## Pertanyaan :  
@@ -95,7 +95,7 @@ ElectricityBill) ?
 
 5. Coba tambahkan sintaks:
 p = iEmp;
- e = eBill;
+e = eBill;
 pada baris 14 dan 15 (baris terakhir dalam method main) ! Apa yang
 menyebabkan error?
 
@@ -107,95 +107,141 @@ menyebabkan error?
       Jawab : polimorfisme bisa diterapkan pada class-class yang memiliki relasi inheritance dan interface. Ketika ada objek yang dideklarasikan dari suatu interface, maka ia bisa digunakan untuk mereferensikan ke objek yang mengimplements class interface tersebut
 
 
-### Percobaan 2 - Interface 
+### Percobaan 2 - Virtual method invocation 
+
 ![percobaan 2](img/percobaan2.PNG)
 
 Link Kode Program : 
-[ICumlaude1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/ICumlaude1841720098Bulan.java)
-
-![percobaan 2](img/percobaan2a.PNG)
-
-Link Kode Program : 
-[Mahasiswa1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Mahasiswa1841720098Bulan.java)
-
-![percobaan 2](img/percobaan2b.PNG)
-
-Link Kode Program : 
-[Sarjana1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Sarjana1841720098Bulan.java)
-
-![percobaan 2](img/percobaan2c.PNG)
-
-Link Kode Program : 
-[PascaSarjana1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/PascaSarjana1841720098Bulan.java)
-
-![percobaan 2](img/percobaan2d.PNG)
-
-Link Kode Program : 
-[Rektor1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Rektor1841720098Bulan.java)
-
-![percobaan 2](img/percobaan2e.PNG)
-
-Link Kode Program : 
-[Program1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Program1841720098Bulan.java)
-
-
- #### Pertanyaan diskusi:  
- -  Mengapa pada langkah nomor 9 terjadi error? Jelaskan! 
-        
-       Jawab : Karena Class mahasiswa tidak mengimplements kan class ICumlaude. Sehingga saat di panggil terjadi error 
-
- -  Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class Program? Mengapa demikian?
-        
-       Jawab : Bisa , karena pada class Sarjana sudah di instansiasi menjadi object sajanaCumlaude di class Program. Dan class Sarjana sudah ter-extends dengan class Mahasiswa 
-
- -  Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method beriSertifikatCumlaude() pada class Rektor? Mengapa demikian? 
-
-       Jawab : Tidak, Karena Tidak Ada abstract method pada interface ICumlaude 
-
- - Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini: 
-
-Jawab : 
-![Pertanyaan D](img/pertanyaan4.PNG)
-
-![Pertanyaan D](img/pertanyaan4a.PNG)
+[Tester 2 1841720098Bulan](../../src/10_Polimorfisme/Tester21841720098Bulan.java)
 
 
 
-### Percobaan 3 - Multiple Interfaces Implementation 
+ #### Pertanyaan :  
+ 1. Perhatikan class Tester2 di atas, mengapa pemanggilan e.getEmployeeInfo() pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10 menghasilkan hasil sama?  
+
+      Jawab : karena sudah dideklarasikan bahwa object e merupakan pEmp.
+
+2.	Mengapa pemanggilan method e.getEmployeeInfo() disebut sebagai pemanggilan method virtual (virtual method invication), sedangkan pEmp.getEmployeeInfo() tidak? 
+
+      Jawab : karena e merupakan method yang fungsinya untuk passing
+
+3.	Jadi apakah yang dimaksud dari virtual method invocation? Mengapa disebut virtual? 
+
+      Jawab : Virtual method invocation terjadi ketika ada pemanggilan overriding method dari suatu objek polimorfisme. Disebut virtual karena antara method yang dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.  
+
+
+### Percobaan 3 - Heterogenous Collection 
 
 ![percobaan 3](img/percobaan3.PNG)
-
-Link Kode Program : 
-[IBerprestasi1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/IBerprestasi1841720098Bulan.java)
 
 ![percobaan 3](img/percobaan3a.PNG)
 
 Link Kode Program : 
-[PascaSarjana1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/PascaSarjana1841720098Bulan.java)
+[Tester 3 1841720098Bulan](../../src/10_Polimorfisme/Tester31841720098Bulan.java)
 
-![percobaan 3](img/percobaan3b.PNG)
+
+#### Pertanyaan :
+1. Perhatikan array e pada baris ke-8, mengapa ia bisa diisi dengan objek-objek dengan tipe yang berbeda, yaitu objek pEmp (objek dari 
+PermanentEmployee)  dan  objek iEmp  (objek  dari 
+InternshipEmployee)? 
+
+      Jawab : karena objek pEmp dan iEmp merupakan object dari class yang merupakan turunan dari class Employee
+
+2. Perhatikan juga baris ke-9, mengapa array p juga diisi dengan objek-objek dengan tipe yang berbeda, yaitu objek pEmp (objek dari PermanentEmployee) dan objek eBill (objek dari 
+ElectricityBilling) ? 
+
+      Jawab : objek pEmp dan eBill merupakan object dari class yang mengimplements dari class Payable.
+
+3. Perhatikan baris ke-10, mengapa terjadi error? 
+
+      Jawab : karena eBill bukan termasuk Class turunan dari Class Employee.
+
+
+### Percobaan 3 - Argumen polimorfisme, instanceod dan casting objek 
+
+![percobaan 4](img/percobaan4.PNG)
 
 Link Kode Program : 
-[Rektor1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Rektor1841720098Bulan.java)
+[Owner1841720098Bulan](../../src/10_Polimorfisme/Owner1841720098Bulan.java)
 
-![percobaan 3](img/percobaan3c.PNG)
+![percobaan 4](img/percobaan4a.PNG)
 
 Link Kode Program : 
-[Program1841720098Bulan](../../src/9_Abstract_Class_dan_Interface/interfacelatihan/Program1841720098Bulan.java)
-
- #### Pertanyaan diskusi:
- Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class yang terkait pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertifikat mawapres pada objek sarjanaCumlaude. 
-
- Jawab : 
- ![Pertanyaan 7](img/pertanyaan7.PNG)
+[Tester 4 1841720098Bulan](../../src/10_Polimorfisme/Tester41841720098Bulan.java)
 
 
+#### Pertanyaan :
+1. Perhatikan class Tester4 baris ke-7 dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari ElectricityBill 	dan 	pEmp 	merupakan 	objek 	dari 
+PermanentEmployee? 
 
+      Jawab : karena keduanya sama - sama mengimplementasikan interface Payable.
+
+2. Jadi apakah tujuan membuat argument bertipe Payable pada method pay() yang ada di dalam class Owner? 
+
+      Jawab : untuk memanggil method getPaymentAmount yang ada di masing – masing object yang dimasukkan sebagai parameter.
+
+3.	Coba pada baris terakhir method main() yang ada di dalam class 
+
+      Jawab : Eror karena iEmp tidak mengimplements class Payable.
+
+      ![pertanyaan 3](img/pertanyaan3.PNG)
+
+ 
+4.	Perhatikan class Owner, diperlukan untuk apakah sintaks p instanceof ElectricityBill pada baris ke-6 ?
+
+      Jawab : mengecek apakah object yang dimasukkan sebagai implements dari Payable atau tidak.
+
+5.	Perhatikan kembali class Owner baris ke-7, untuk apakah casting objek disana (ElectricityBill eb = (ElectricityBill) p) diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting ke dalam objek eb yang bertipe ElectricityBill ? 
+
+      Jawab : Untuk dikembalikan ke instan sesungguhnya sehingga dapat memanggil method getBillInfo() yang hanya ada di class ElectricityBill
+
+
+## Tugas 
+
+![Tugas](img/tugas1.PNG)
+
+Link Kode Program : 
+[Destroyable1841720098Bulan](../../src/10_Polimorfisme/Destroyable1841720098Bulan.java)
+
+![Tugas](img/tugas1a.PNG)
+
+Link Kode Program : 
+[Zombie1841720098Bulan](../../src/10_Polimorfisme/Zombie1841720098Bulan.java)
+
+![Tugas](img/tugas1b.PNG)
+
+Link Kode Program : 
+[WalkingZombie1841720098Bulan](../../src/10_Polimorfisme/WalkingZombie1841720098Bulan.java)
+
+![Tugas](img/tugas1c.PNG)
+
+Link Kode Program : 
+[JumpingZombie1841720098Bulan](../../src/10_Polimorfisme/JumpingZombie1841720098Bulan.java)
+
+![Tugas](img/tugas1d.PNG)
+
+Link Kode Program : 
+[Barrier1841720098Bulan](../../src/10_Polimorfisme/Barrier1841720098Bulan.java)
+
+![Tugas](img/tugas1e.PNG)
+
+Link Kode Program : 
+[Plant1841720098Bulan](../../src/10_Polimorfisme/Plant1841720098Bulan.java)
+
+![Tugas](img/tugas1f.PNG)
+
+Link Kode Program : 
+[Main1841720098Bulan](../../src/10_Polimorfisme/Main1841720098Bulan.java)
 
 
 ## Kesimpulan
 
-dalam pratikum ini kita dapat mengenal dan memahami konsep dari Abstract Class dan Interface 
+dalam pratikum ini kita dapat memahami konsep dan bentuk dasar polimorfisme.
+Polimorfisme merupakan kemampuan suatu objek untuk memiliki banyak
+bentuk. Penggunaan polimorfisme yang paling umum dalam OOP terjadi
+ketika ada referensi super class yang digunakan untuk merujuk ke objek dari
+sub class. Maka objek tersebut bisa diinstansiasi sebagai objek dari sub
+class. 
 
 ## Pernyataan Diri
 
